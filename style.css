@@ -245,8 +245,75 @@ hr{
 .summary button:hover{
     background-color: rgba(255, 119, 0, 0.714);
 }
-
-
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #feefef;
+    margin-top: 80px;
+    padding: 60px 120px;
+    align-items: center;
+}
+footer h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+footer p{
+    margin-bottom: 20px;
+}
+.fa-facebook{
+    padding: 7px 10px;
+    background-color: blue;
+    color: #ffffff;
+    border-radius: 9px;
+    transition: .5s ease-in;
+}
+.fa-facebook:hover{
+    background-color: rgba(0, 0, 255, 0.585);
+}
+.fa-linkedin{
+    padding: 7px 10px;
+    background-color: rgb(2, 71, 94);
+    color: #ffffff;
+    border-radius: 9px;
+    transition: .5s ease-in;
+}
+.fa-linkedin:hover{
+    background-color: rgba(2, 71, 94, 0.579);
+}
+.fa-youtube-play{
+    padding: 7px 10px;
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    border-radius: 9px;
+    transition: .5s ease-in;
+}
+.fa-youtube-play:hover{
+    background-color: rgba(255, 0, 0, 0.46);
+}
+.input{
+    margin-right: 80px;
+}
+.input input{
+    padding: 10px;
+    width: 360px;
+    margin-bottom: 14px;
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid;
+}
+.input button{
+    padding: 7px 15px;
+    border: none;
+    background-color: rgb(255, 106, 0);
+    color: #fefefe;
+    font-weight: bold;
+    border-radius: 7px;
+    transition: .7s ease-in-out;
+}
+.input button:hover{
+    background-color: rgba(255, 119, 0, 0.714);
+}
 
 
 @media (max-width:1099px) {
