@@ -79,7 +79,7 @@ nav li a:hover{
 .titleBanner button{
     padding: 10px 15px;
     font-size: 17px;
-    background-color: rgb(255, 111, 0);
+    background-color: rgb(255, 106, 0);
     border-radius: 7px;
     border: none;
     color: #fefefe;
@@ -95,4 +95,38 @@ nav li a:hover{
 }
 .titleBanner button:hover{
     background-color: rgba(248, 89, 3, 0.622);
+}
+
+@media (max-width:1099px) {
+    nav {
+	padding: 20px 50px;
+}
+.titleBanner {
+	margin-left: 120px;
+	margin-top: 80px;
+}
+.img {
+	width: 400px;
+}
+}
+
+@media (max-width:499px) {
+    nav {
+	padding: 20px;
+}
+nav li a {
+	font-size: 14px;
+}
+nav button {
+	padding: 7px 10px;
+}
+.banner {
+	display: block;
+	padding: 10px 0px;
+    margin: 10px;
+}
+.titleBanner {
+	margin-left: 20px;
+	margin-top: 80px;
+}
 }
