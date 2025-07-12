@@ -41,19 +41,58 @@ nav li a:hover{
     color: rgb(140, 135, 135);
 }
 .img img{
-    width: 450px;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
 }
 .banner{
     display: flex;
     justify-content: space-between;
-    padding: 80px 180px;
-    
+    padding: 80px 0px;
 }
 .img{
     background-image: url(portfolio-resources/images/header_bg.png);
-    width: 100%;
+    width: 500px;
     background-size: cover;
     align-items: center;
     text-align: center;
-    padding: 50px;
+}
+.titleBanner{
+    margin-left: 220px;
+    margin-top: 120px;
+    
+}
+.titleBanner h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #464646;
+    margin-bottom: 10px;
+}
+.titleBanner h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.titleBanner p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.titleBanner button{
+    padding: 10px 15px;
+    font-size: 17px;
+    background-color: rgb(255, 111, 0);
+    border-radius: 7px;
+    border: none;
+    color: #fefefe;
+    font-weight: bold;
+    transition: .7s ease-in;
+}
+.fa-phone{
+    margin-right: 5px;
+    font-size: 17px;
+}
+.fa-download{
+    margin-right: 7px;
+}
+.titleBanner button:hover{
+    background-color: rgba(248, 89, 3, 0.622);
 }
